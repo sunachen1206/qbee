@@ -1,0 +1,40 @@
+{
+    "name": "control",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "bluetooth": "*",
+        "qdee": "github:hiwonder/qdee#e0b4dfb69f3b01295420c33d277f718a193ee5bb",
+        "microphone": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.2.13",
+        "tag": "v1.2.13",
+        "commits": "https://github.com/Microsoft/pxt-microbit/commits/5d5b348757b15c6d00f5b7f560fd69592ca29424",
+        "target": "8.0.18",
+        "pxt": "4.4.7",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "open": 1,
+                    "whitelist": 0,
+                    "security_level": null
+                }
+            }
+        }
+    }
+}
